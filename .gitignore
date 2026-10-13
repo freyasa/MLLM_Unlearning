@@ -1,0 +1,53 @@
+# -----------------------------
+# Project-specific ignored dirs
+# -----------------------------
+
+baseline_train_split/
+data/
+LLaVA_Vanilla/
+log_llava/
+log_qwen/
+NPO/
+NPO_llava/
+NPO_qwen/
+qwen_vanilla/
+Qwen_Vanilla/
+
+# -----------------------------
+# Python typical ignores
+# -----------------------------
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pt
+*.bin
+
+# Virtual env / Conda / venv
+.env/
+.venv/
+env/
+venv/
+*.conda
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# -----------------------------
+# System files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Log / cache / temp
+# -----------------------------
+logs/
+*.log
+cache/
+*.cache
+tmp/
+temp/
